@@ -1,10 +1,9 @@
 package main
 
 import (
-	"github.com/bodagovsky/lightspeed-test/counter"
+	"fmt"
 )
 
 func main() {
-	c := counter.NewIpAdressCounter()
-	c
+	fmt.Println("HelloWorld")
 }
